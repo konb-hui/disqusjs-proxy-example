@@ -8,7 +8,7 @@
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "public, max-age=[Cache Age]"
+                "cache-control": "public, max-age=120"
             },
             "dest": "https://disqus.com/api/$1"
         }
